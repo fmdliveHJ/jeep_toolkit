@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400&family=Noto+Sans:wght@500;700&family=Roboto:wght@400;700&display=swap');
+
+$tablet: 1179px;
+$mini: 900px;
+$mobile: 539px;
+//font
+$fontBig : 7rem;
+$fontXXXXL: 4rem;
+$fontXXXL: 3rem;
+$fontXXL: 2rem;
+$fontXL: 1.5rem;
+$fontLL: 1.2rem;
+$fontL: 1rem;
+$fontM: 0.875rem;
+$fontS: 0.75rem;
+
+//color
+$pointColor: #ffba00;
+$bgColor : rgb(46, 44, 44);
+
+//components
+@import 'components/btns';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/history';
+@import 'components/menu';
+@import 'components/pics';
+@import 'components/popup';
+@import 'components/reset';
+@import 'components/vids';
+@import 'components/visual';
+
+//layouts
+@import 'layouts/layout';
+
+//pages 
+@import 'pages/jeeplife';
+@import 'pages/media';
+@import 'pages/mediaSlider';
+@import 'pages/gallery';
+
