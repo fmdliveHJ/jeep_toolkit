@@ -8,12 +8,14 @@ import { configureStore } from '@reduxjs/toolkit';
 import memberReducer from './redux/memberSlice';
 import youtubeReducer from './redux/youtubeSlice';
 import flickrReducer from './redux/flickrSlice';
+import picsReducer from './redux/picsSlice';
 
 const store = configureStore({
 	reducer: {
 		member: memberReducer,
 		youtube: youtubeReducer,
 		flickr: flickrReducer,
+		pics: picsReducer,
 	},
 });
 

@@ -14,11 +14,13 @@ import { useDispatch } from 'react-redux';
 import { fetchMember } from '../redux/memberSlice';
 import { fetchYoutube } from '../redux/youtubeSlice';
 import { fetchFlickr } from '../redux/flickrSlice';
+import { fetchPics } from '../redux/picsSlice';
 
 function App() {
 	const dispatch = useDispatch();
 
 	useEffect(() => {
+		dispatch(fetchPics());
 		dispatch(fetchMember());
 		dispatch(fetchYoutube());
 		dispatch(fetchFlickr({ type: 'user', count: 8, user: '195814985@N05' }));
