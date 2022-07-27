@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jeep_toolkit/static/css/main.aec8659c.css",
+    "main.js": "/jeep_toolkit/static/js/main.60b731b9.js",
+    "static/media/history.jpg": "/jeep_toolkit/static/media/history.dcfa949f485548b8bd01.jpg",
+    "static/media/pics01.jpg": "/jeep_toolkit/static/media/pics01.fafc22ec134750abe3ed.jpg",
+    "static/media/story02.jpg": "/jeep_toolkit/static/media/story02.c85de155bfc5b315bcfb.jpg",
+    "index.html": "/jeep_toolkit/index.html",
+    "main.aec8659c.css.map": "/jeep_toolkit/static/css/main.aec8659c.css.map",
+    "main.60b731b9.js.map": "/jeep_toolkit/static/js/main.60b731b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec8659c.css",
+    "static/js/main.60b731b9.js"
+  ]
+}
