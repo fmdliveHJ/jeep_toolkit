@@ -9,7 +9,7 @@
 ## 프로젝트 소개
 
 <p align="justify">
-리액트 프로젝트의 상태관리 redux-saga에서 redex-toolkit을 사용하였슨니다.
+리액트 프로젝트의 상태관리 redux-saga에서 redex-toolkit을 사용하였습니다.
 
 </p>
 
@@ -35,8 +35,6 @@
 
 ## 배운 점 & 아쉬운 점
 
-배운점
-전역 상태관리인 redux를 알게 되고 redux-saga를 사용하면서 <br> 데이터 유지와 각 페이지에 개별 전달이 더 효율적으로 되는것을 알게 되었습니다.
-
-아쉬운점
-전역상태 관리는 redux-toolkit, swr, react-query, conext api 등 많은 것으로 알고 있습니다. <br>redux-toolkit, swr과 reacat-query같은 상태관리중 더 효율적인것을 고려하지 못한게 아쉽습니다.
+배운점 <br>
+redux-saga에서 redux-toolkit으로 바꾸면서 saga에서는<br>
+actionType, reducer, api, saga에서 작업하던 기능들을 slice파일 하나에 통합하여 전역으로 관리했습니다.
