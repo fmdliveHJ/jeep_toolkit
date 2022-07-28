@@ -9,9 +9,7 @@
 ## 프로젝트 소개
 
 <p align="justify">
-리액트 프로젝트로 컴포넌트 구성과, 프레임워크를 <br> 사용함으로써 반복적으로
-사용되는 코드를 효율적으로 유지 보수하고 <br> 관리 하는 것을 알기 위해 리액트로 프로젝트를 만들었습니다.<br><br>
-누디진에 있는 스크립트 코드를 리액트로 옮기면서 리액트 프로젝트에 맞게 변환하고 <br> 폴더구조를기존보다 더 분명하게 구분 짓고 사용 할수 있도록 하였습니다.
+리액트 프로젝트의 상태관리 redux-saga에서 redex-toolkit을 사용하였슨니다.
 
 </p>
 
@@ -26,13 +24,11 @@
 ## 구현 기능
 
 - react
-- redex-saga
+- ❗️redex-toolkit
 - 스와이퍼 슬라이드
 - 바닐라 스크립트 슬라이드
 - fetch이용한 json 데이터 호출
 - flickr, youtube 재생목록, api 호출
-- kakao map api
-- 회원가입 요건 설정 (id, password, checkbox, radio, e-mail)
 - 자바스크립트 스크롤 모션
 
 <br>
